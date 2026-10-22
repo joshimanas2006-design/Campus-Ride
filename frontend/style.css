@@ -1,0 +1,161 @@
+body {
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 15px 0;
+}
+
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+
+    color: white;
+
+    padding: 80px 20px;
+}
+
+
+.hero h1 {
+    max-width: 850px;
+
+    margin: auto;
+}
+
+
+/* Statistics */
+
+.stat-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+.stat-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+.stat-card i {
+
+    font-size: 35px;
+
+    color: #0d6efd;
+
+}
+
+
+.stat-card h3 {
+
+    font-size: 30px;
+
+    margin-top: 10px;
+
+}
+
+
+.stat-card p {
+
+    color: #777;
+
+}
+
+
+/* Search */
+
+.search-box {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* Ride Card */
+
+.ride-card {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+    height: 100%;
+}
+
+
+.ride-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.12);
+
+}
+
+
+.ride-card h5 {
+
+    line-height: 1.6;
+
+}
+
+
+/* Buttons */
+
+.btn {
+
+    border-radius: 8px;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        padding: 50px 15px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 32px;
+
+    }
+
+}
